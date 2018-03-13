@@ -1,0 +1,23 @@
+{
+	"stateless componet": {
+		"prefix": "react stateless",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from \"prop-types\";",
+			"\n",
+			"export const ${1:classname} = ({ className }) => (",
+			"\t<div className={className}>",
+			"\t\t{ }",
+			"\t</div>",
+			")",
+			"\n",
+			"${1:classname}.PropTypes = {",
+			"\t className: PropTypes.string",
+			"}",
+			"\n",
+			"${1:classname}.defaultProps = {",
+			"\tclassName: '${2:class names}'",
+			"}"
+		]
+	}
+}
