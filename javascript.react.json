@@ -1,6 +1,6 @@
 {
 	"stateless componet": {
-		"prefix": "new react stateless",
+		"prefix": "react stateless",
 		"body": [
 			"import React from 'react';",
 			"import PropTypes from \"prop-types\";",
@@ -16,7 +16,7 @@
 			"}",
 			"\n",
 			"$1.defaultProps = {",
-			"\tclassName: 'product-detail__product-description'",
+			"\tclassName: '$2'",
 			"}"
 		]
 	}
