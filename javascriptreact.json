@@ -11,7 +11,7 @@
 			"\t</div>",
 			")",
 			"\n",
-			"${1:classname}.PropTypes = {",
+			"${1:classname}.propTypes = {",
 			"\t className: PropTypes.string",
 			"}",
 			"\n",
